@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CrowdAntz">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="WinMain">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{01a2671f-f063-4f12-a06c-ee8c6923da6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{903bc3f7-3bd8-4902-834a-cc3fd171c2cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{23854bc1-1cf1-4247-9975-a912f398fbe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\FLOCKING">
+      <UniqueIdentifier>{538bf564-f32a-4b47-b753-22ea3a2037cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Player">
+      <UniqueIdentifier>{35cc7250-bb08-4b25-abec-c7952fbc0f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{9d3653b3-b017-41d9-82db-6673ac050e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\HelperObject">
+      <UniqueIdentifier>{8c2cff16-02dc-46f6-9081-10d0dc00d0f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton">
+      <UniqueIdentifier>{85375562-3f78-45c7-aa69-e5ad7e422444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{d8c78e27-2dc3-47eb-a314-e1834fe02845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Gimmick">
+      <UniqueIdentifier>{260b5a80-c2b3-4eac-b25b-41fb49f801ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Follower">
+      <UniqueIdentifier>{b319ba1c-562a-4c83-a364-16eede439901}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CrowdAntz.cpp">
+      <Filter>CrowdAntz</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="Boid.cpp">
+      <Filter>Object\FLOCKING</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Flock.cpp">
+      <Filter>Object\FLOCKING</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="IObjectBase.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="IScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectFactory.cpp">
+      <Filter>Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene01_Intro.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene03_InGame.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene04_GameClear.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene05_GameOver.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene02_CutScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Prop.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Fire.cpp">
+      <Filter>Object\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="Knife.cpp">
+      <Filter>Object\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="CupCake.cpp">
+      <Filter>Object\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="AntBase.cpp">
+      <Filter>Object\FLOCKING</Filter>
+    </ClCompile>
+    <ClCompile Include="Axis.cpp">
+      <Filter>Object\HelperObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Object\HelperObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Trap.cpp">
+      <Filter>Object\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="ClNavigation.cpp">
+      <Filter>Object\HelperObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Follower.cpp">
+      <Filter>Object\Follower</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CrowdAntz.h">
+      <Filter>CrowdAntz</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="Boid.h">
+      <Filter>Object\FLOCKING</Filter>
+    </ClInclude>
+    <ClInclude Include="AntBase.h">
+      <Filter>Object\FLOCKING</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="IObjectBase.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Flock.h">
+      <Filter>Object\FLOCKING</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="IScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonMacroFunction.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonBase.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectFactory.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Object\HelperObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Axis.h">
+      <Filter>Object\HelperObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene01_Intro.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="def.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene03_InGame.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene04_GameClear.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene05_GameOver.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene02_CutScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Prop.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Fire.h">
+      <Filter>Object\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="Knife.h">
+      <Filter>Object\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="CupCake.h">
+      <Filter>Object\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="Trap.h">
+      <Filter>Object\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="ClNavigation.h">
+      <Filter>Object\HelperObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Follower.h">
+      <Filter>Object\Follower</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
