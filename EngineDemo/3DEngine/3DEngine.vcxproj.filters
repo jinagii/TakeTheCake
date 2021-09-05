@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="3DRenderer">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{b8cb69e2-165a-4269-bbb5-37b270ea58fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Effect">
+      <UniqueIdentifier>{0d28285d-cfc6-45a5-b9f5-4d65833b4483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Font">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{1847455b-d877-4275-8ee4-be9357004608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Shader">
+      <UniqueIdentifier>{c5c1dc99-ea2b-4008-a1e8-23548da20b63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{9220ef87-55b0-4f49-afdc-8098086e5c79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\HelperObjects">
+      <UniqueIdentifier>{a97d7678-74af-47db-8938-dbe2804d30e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StudyNotes">
+      <UniqueIdentifier>{c9261cf8-3b5e-4823-8401-5faccb6f3342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\MeshObjects">
+      <UniqueIdentifier>{4929367e-59e2-41ab-8962-9607985c98ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\TextureExample">
+      <UniqueIdentifier>{2df7acd3-80bb-40f1-9470-cdc216e0de94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\SkyBox">
+      <UniqueIdentifier>{f38a4181-8a0c-4007-91c0-fa8fd77d69c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{8f6d3dfc-9797-41a7-8cf9-3b7293199e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\ObjectBase">
+      <UniqueIdentifier>{89bf1864-1185-47be-be12-cb40230b9a62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\TriangleListExample">
+      <UniqueIdentifier>{71ddb685-e82e-42dd-8aac-33e72bfc453a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\GeometryHelper">
+      <UniqueIdentifier>{55f54585-bf20-487c-b01f-410f28f03d00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DRenderer\Interface">
+      <UniqueIdentifier>{f2a44c09-def6-4006-9230-a234f05977d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Texture">
+      <UniqueIdentifier>{bc58c120-8e1a-4cfa-ad6c-e6cba9cdb336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Object">
+      <UniqueIdentifier>{3ed02d87-46c1-45ef-be81-5afb04024807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DRenderer\DXInterface">
+      <UniqueIdentifier>{4958d432-f73e-40d4-a0c2-3ac44f714dd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing">
+      <UniqueIdentifier>{f670e180-f716-4e4a-9fa9-21b125ca99d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Device">
+      <UniqueIdentifier>{86748990-8079-49f9-83a1-066a25f3967a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\LightHelper">
+      <UniqueIdentifier>{00aaed98-4bc0-4c69-beac-90c129582bc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_RecycleBin">
+      <UniqueIdentifier>{0fa52f7a-fac4-4894-bb4a-9d2c61ed5cca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\ImageObjects">
+      <UniqueIdentifier>{c6af0ed3-ffd8-4820-b53a-c3297127d97a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\ForDebug">
+      <UniqueIdentifier>{99634b02-68e3-4fb9-a2db-ef70c8e04996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Navigation">
+      <UniqueIdentifier>{f37f653e-41cf-465c-9e1c-39a847020e10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Renderer.h">
+      <Filter>3DRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="DXDefine.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTKFont.h">
+      <Filter>Resource\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Resource\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="StructAndConst.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Managers\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshObject.h">
+      <Filter>Models\MeshObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Skull.h">
+      <Filter>Models\TriangleListExample</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Models\TextureExample</Filter>
+    </ClInclude>
+    <ClInclude Include="BlurFilter.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryGenerator.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky.h">
+      <Filter>Models\SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="HelperObject.h">
+      <Filter>Models\HelperObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="IDXObjectBase.h">
+      <Filter>Models\ObjectBase</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryHelper.h">
+      <Filter>Models\GeometryHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderer.h">
+      <Filter>3DRenderer\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IDXRenderer.h">
+      <Filter>3DRenderer\DXInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="DXObjectFactory.h">
+      <Filter>Managers\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="DXRenderState.h">
+      <Filter>3DRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="DXDevice.h">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="LightHelper.h">
+      <Filter>Resource\LightHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="Axis.h">
+      <Filter>_RecycleBin</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>_RecycleBin</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageObject.h">
+      <Filter>Models\ImageObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugCircle.h">
+      <Filter>Models\ForDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="Navigation.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>3DRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTKFont.cpp">
+      <Filter>Resource\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="MathHelper.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Resource\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="StructAndConst.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Managers\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshObject.cpp">
+      <Filter>Models\MeshObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Skull.cpp">
+      <Filter>Models\TriangleListExample</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Models\TextureExample</Filter>
+    </ClCompile>
+    <ClCompile Include="BlurFilter.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryGenerator.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky.cpp">
+      <Filter>Models\SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="HelperObject.cpp">
+      <Filter>Models\HelperObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="IDXObjectBase.cpp">
+      <Filter>Models\ObjectBase</Filter>
+    </ClCompile>
+    <ClCompile Include="DXRenderState.cpp">
+      <Filter>3DRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryHelper.cpp">
+      <Filter>Models\GeometryHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="IDXRenderer.cpp">
+      <Filter>3DRenderer\DXInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="DXObjectFactory.cpp">
+      <Filter>Managers\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="DXDevice.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="LightHelper.cpp">
+      <Filter>Resource\LightHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="Axis.cpp">
+      <Filter>_RecycleBin</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>_RecycleBin</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageObject.cpp">
+      <Filter>Models\ImageObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugCircle.cpp">
+      <Filter>Models\ForDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="Navigation.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\AnimationStudy.txt">
+      <Filter>StudyNotes</Filter>
+    </Text>
+    <Text Include="..\..\NodeStudy.txt">
+      <Filter>StudyNotes</Filter>
+    </Text>
+    <Text Include="..\..\ParserStudy.txt">
+      <Filter>StudyNotes</Filter>
+    </Text>
+    <Text Include="StructureStudy.txt">
+      <Filter>StudyNotes</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\Library\FX\color.fx">
+      <Filter>Resource\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Library\FX\LightHelper.fx">
+      <Filter>Resource\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Library\FX\Basic.fx">
+      <Filter>Resource\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Library\FX\Blur.fx">
+      <Filter>Resource\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Library\FX\Sky.fx">
+      <Filter>Resource\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Library\FX\SkinnedMesh.fx">
+      <Filter>_RecycleBin</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Library\FX\NormalMap.fx">
+      <Filter>_RecycleBin</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Library\FX\Bitmap.fx">
+      <Filter>Resource\Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
